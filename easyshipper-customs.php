@@ -40,7 +40,7 @@ add_action( 'add_meta_boxes', 'es_add_boxes');
 
 function es_add_boxes(){
 
- add_meta_box( 'easypost_data', __( 'EastPost', 'woocommerce' ), 'woocommerce_easypost_meta_box', 'shop_order', 'normal', 'low' );
+ add_meta_box( 'easypost_data', __( 'EasyPost', 'woocommerce' ), 'woocommerce_easypost_meta_box', 'shop_order', 'normal', 'low' );
 
 }
 
